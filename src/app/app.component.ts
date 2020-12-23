@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'firstAngularApp';
+  greeting: string = 'Hello from java full stack'
+
+  getGreeting() {
+    return 'My name is Arshdeep Singh'
+  }
 }
